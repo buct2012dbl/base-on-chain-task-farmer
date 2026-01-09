@@ -1,0 +1,8 @@
+
+{
+  "name": "Base Chain Airdrop Farmer",
+  "description": "An automated utility for executing bulk USDC-to-ETH swaps on the Base network to fulfill high-frequency transaction requirements for airdrop tasks.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

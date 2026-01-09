@@ -1,0 +1,25 @@
+{
+  "name": "base-chain-airdrop-farmer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "batch:send": "node ./scripts/batch_send.js"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "@google/genai": "^1.34.0",
+    "react-dom": "^19.2.3",
+    "ethers": "^6.16.0",
+    "dotenv": "^16.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
